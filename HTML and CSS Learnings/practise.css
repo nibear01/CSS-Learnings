@@ -1,0 +1,81 @@
+
+body{
+    background-color: #0b0d10;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.navigation{
+    display: inline-block;
+}
+.button1{
+    font-size: 83.5%;
+    padding: 1em 3em;
+    background-color: rgb(34, 38, 38);
+    border: 1px solid ;
+    color: rgb(231, 231, 231);
+    border-radius: 1px;
+    position: relative;
+}
+.navigation a{
+    padding: 1em 2em;
+    background-color: rgb(34, 38, 38);
+    border: 1px solid;
+    color: rgb(231, 231, 231);
+    
+    position: relative;
+    display: block;
+    text-decoration: none;
+}
+.navigation .con1{
+    background-color: #0b0d10;
+    position: absolute;
+    display: none;
+}
+.navigation:hover .con1{
+    display: block;
+    
+}
+
+.grad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button2{
+    padding: 1em 2em;
+    background-color: rgb(34, 38, 38);
+    border: none;
+    color: rgb(231, 231, 231);
+    border-radius: 1000px;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button2::after{
+    content: "";
+    height: 106%;
+    width: 103%;
+    border-radius: 1000px;
+    position: absolute;
+    background-image: linear-gradient(to bottom right, #008cff, #e100ff );
+    z-index: -1;
+}
+
+.button2:hover{
+    transition: .5s;
+    cursor: pointer;
+    z-index: 0;
+    box-shadow: 40px 0px 100px #008cff8e, 
+    -40px 0px 100px #e100ff73;
+}
+.navigation:hover{
+    transition: .5s;
+    cursor: pointer;
+    z-index: 0;
+    box-shadow: 40px 0px 100px #008cff8e, 
+    -40px 0px 100px #e100ff73;
+}

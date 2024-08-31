@@ -1,0 +1,10 @@
+body{
+    color: antiquewhite;
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1{
+    color: rgb(146, 78, 44);
+}

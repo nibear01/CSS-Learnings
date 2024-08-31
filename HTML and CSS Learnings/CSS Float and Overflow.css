@@ -1,0 +1,27 @@
+.div1{
+    border: 3px solid;
+    margin: 10px;
+    background-color: rgb(171, 214, 214);
+    display: flow-root;
+}
+.div2{
+    border: 2px solid;
+    margin: 10px;
+    height: 100px;
+    overflow: scroll;
+    background-color: rgb(171, 214, 214);
+}
+body{
+    background-color: rgb(171, 194, 194);
+}
+#img1{
+    float: left;
+    margin-right: 10px ;
+    margin-left: 10px;
+}
+#img2{
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px ;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,31 @@
+@font-face {
+    font-family: roboto;
+    src: url(fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: moder;
+    src: url(fonts/Moderustic-Regular.ttf);
+}
+
+h1{
+    font-family: Verdana, arial;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: lighter;
+    font-style: italic;
+}
+#p1{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+}
+#p2{
+    font-family: roboto;
+}
+#p3{
+    font-family: moder;
+}

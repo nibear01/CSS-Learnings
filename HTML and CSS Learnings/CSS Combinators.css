@@ -1,0 +1,22 @@
+#container{
+    border: 2px solid;
+    margin: 5px 5px 5px 5px;
+}
+#container2{
+    border: 2px solid;
+    margin: 5px 5px 5px 5px;
+}
+
+
+#container p{             /* desendant */
+    background-color: rgb(255, 160, 35);
+} 
+#container2 >p{            /* child */
+    background-color: aqua;
+}
+#container ~p{             /* general sibling */
+    background-color: blanchedalmond;
+}
+#container2 +p{           /* adjacent sibling*/
+    background-color: blue;
+}

@@ -1,0 +1,9 @@
+h1{
+    text-shadow: 5px 5px 4px hsl(120, 69%, 13%), -1px -1px  rgb(59, 15, 220);
+}
+#box1{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(168, 136, 136);
+    box-shadow: 9px 9px 10px rgb(198, 72, 72);
+}

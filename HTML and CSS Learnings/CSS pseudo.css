@@ -1,0 +1,62 @@
+a{
+    margin: 10px 10px 10px 10px;
+}
+button{
+    margin: 10px 10px 10px 10px;
+}
+a:link{
+    color: rgb(16, 227, 129);
+}
+a:hover{
+    color: rgb(12, 244, 244);
+    font-size: 1.1em;
+}
+a:active{
+    color: blueviolet;
+}
+a:visited{
+    color: rgb(18, 186, 20);
+}
+
+
+button:hover{
+    color: rgb(255, 140, 1);
+    font-size: 1.1em;
+}
+button:active{
+    color: brown;
+}
+
+li:hover{
+    color: aliceblue;
+    background-color: rgb(182, 182, 168);
+    width: 70px;
+}
+li:not(:hover){
+    background-color: rgb(150, 139, 139);
+    width: 70px;
+}
+li:nth-child(2n+3){
+    background-color: rgb(124, 122, 122);
+}
+
+#greeting{
+    background-color: rgb(69, 239, 182);
+    width:76px;
+    height: 19px;
+    box-shadow: 3px 3px 4px;
+    border-radius: 4px;
+}
+
+#greeting p{
+    background-color: rgb(194, 194, 86);
+    width: 41px;
+    display: none;
+    box-shadow: 3px 3px 4px;
+    border-radius: 4px;
+    position: relative;
+    left: 20.5%;
+}
+#greeting:hover p{
+    display: block;
+}

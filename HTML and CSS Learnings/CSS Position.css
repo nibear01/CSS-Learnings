@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(236, 244, 250);
+} 
+#relate{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    position: relative;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+#fix{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(43, 175, 131, 0.778);
+    position: fixed;
+    right: 0px;
+    
+}
+#abosule{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(6, 23, 18, 0.696);
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    
+}
+#stick{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(56, 175, 43, 0.778);
+    position: sticky;
+    margin-bottom: 10px;
+}
+#stat{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(188, 156, 40);
+    position: sticky;
+}

@@ -1,0 +1,21 @@
+body{
+    background-color: hsl(0, 1%, 23%);
+}
+h1{
+    color: white;
+}
+p{
+    color: white;
+}
+#p1{
+    color: rgb(213, 129, 18);
+}
+#p2{
+    color: rgb(183, 31, 171);
+}
+.odd{
+    color: rgb(23, 83, 211);
+}
+.even{
+    color: rgb(17, 86, 86);
+}

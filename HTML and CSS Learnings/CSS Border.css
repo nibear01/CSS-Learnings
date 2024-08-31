@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(239, 234, 227);
+}
+h1{
+    border-style: solid; /* double, inset, outset, dashed, groove, dotted,ridge*/
+    border-width: 4px;
+    border-color: rgb(6, 60, 41);
+    border-radius: 10px;
+}
+h3{
+    border: 3px solid rgb(112, 22, 22);
+    border-radius: 10px;
+}
+p{
+    border-top: 2px solid rgb(186, 115, 115);
+    border-bottom: 2px solid rgb(187, 106, 106);
+    border-left: 2px solid rgb(188, 94, 94);
+    border-right: 2px solid rgb(185, 93, 93);
+    border-radius: 3px;
+}

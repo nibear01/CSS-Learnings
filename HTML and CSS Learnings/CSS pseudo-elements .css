@@ -1,0 +1,32 @@
+h1{
+    box-shadow: 3px 3px 4px;
+    background-color: bisque;
+}
+h1::first-letter{
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(236, 229, 221);
+    box-shadow: 2px 2px 1px;
+    border-radius: 50px;
+}
+
+p::first-line{
+    background-color: rgb(137, 180, 255);
+}
+p::selection{
+    background-color: black;
+    color: aliceblue;
+}
+
+#fruit li::before{
+    content: "✔️";
+}
+#apple::after{
+    content: "🍎";
+}
+#orange::after{
+    content: "🍊";
+}
+#banana:after{
+    content: "🍌";
+}

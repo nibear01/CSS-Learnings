@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+    background-color: rgb(24, 32, 57);
+}
+div{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h1{
+    background-color: rgb(30, 30, 123);
+    border: 3px solid;
+    border-radius: 26px 58px;
+    width: 500px;
+    position:static;
+    text-align: center;
+}
+.navbar ul{
+    background-color: rgb(18, 47, 86);
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    float: left;
+    color: aliceblue;
+}
+.navbar a:hover{
+    background-color: rgb(0, 0, 0);
+    font-size: 0.9em;
+    transition-duration: .9s;
+    border-radius: 4px;
+}
